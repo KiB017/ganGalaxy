@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/KiB017/ganGalaxy.git/static/css/main.7b968fb9.css",
+    "main.js": "/KiB017/ganGalaxy.git/static/js/main.7f609b31.js",
+    "static/media/ganGalaxy_logo.webp": "/KiB017/ganGalaxy.git/static/media/ganGalaxy_logo.d01dce9e802df2940d88.webp",
+    "index.html": "/KiB017/ganGalaxy.git/index.html",
+    "main.7b968fb9.css.map": "/KiB017/ganGalaxy.git/static/css/main.7b968fb9.css.map",
+    "main.7f609b31.js.map": "/KiB017/ganGalaxy.git/static/js/main.7f609b31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b968fb9.css",
+    "static/js/main.7f609b31.js"
+  ]
+}
