@@ -1,12 +1,55 @@
-.App
+*
 {
-  background-color: #f0f8ff;
+  padding: 0;
+  margin: 0;
+}
+
+body, html
+{
+  font-family: "averia sans libre", sans-serif;
+}
+
+header
+{
+  height: 20vh;
+  width: 100%;
+  background-color: #d9e6dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ganGalaxy-logo
 {
-  height: 100px;
+  height: 15vh;
   width: auto;
+  margin: 10px;
   border: none;
   border-radius: 10px;
+}
+
+.welcome-container
+{
+  height: 500px;
+  width: 197vh;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/galaxy-background.webp");
+  background-repeat: "no-repeat";
+  background-size: cover;
+}
+
+.welcome-container-entrance
+{
+  border: none;
+  border-radius: 10px;
+}
+
+.welcome-text
+{
+  color: white;
 }
