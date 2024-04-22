@@ -11,9 +11,10 @@ body, html
 
 header
 {
-  height: 20vh;
+  height: 175px;
   width: 100%;
   background-color: #d9e6dc;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,30 +22,52 @@ header
 
 .ganGalaxy-logo
 {
-  height: 15vh;
+  height: 100px;
   width: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
   margin: 10px;
   border: none;
   border-radius: 10px;
+  vertical-align: middle;
+}
+
+.header-text
+{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -25%);
 }
 
 .welcome-container
 {
-  height: 500px;
-  width: 197vh;
-  margin: 10px;
-  border: none;
-  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/galaxy-background.webp");
-  background-repeat: "no-repeat";
-  background-size: cover;
+}
+
+.welcome-background
+{
+  height: 650px;
+  width: auto;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  display: block;
 }
 
 .welcome-container-entrance
 {
+  position: absolute;
+  top: 55%; 
+  left: 50%; 
+  transform: translate(-50%, -45%); 
   border: none;
   border-radius: 10px;
 }
@@ -52,4 +75,10 @@ header
 .welcome-text
 {
   color: white;
+  font-size: 36px;
+  position: absolute;
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -70%); 
+  text-align: center;
 }
