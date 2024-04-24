@@ -1,0 +1,14 @@
+.exhibition-box
+{
+  cursor: pointer;
+  user-select: none;
+}
+
+.exhibition-image
+{
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin: 4px;
+}

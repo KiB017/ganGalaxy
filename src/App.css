@@ -11,7 +11,7 @@ body, html
 
 .header-container
 {
-  height: 175px;
+  height: 10px;
   width: 100%;
   background-color: #d9e6dc;
   position: relative;
@@ -78,4 +78,38 @@ body, html
   left: 50%; 
   transform: translate(-50%, -70%); 
   text-align: center;
+}
+
+.mission-container
+{
+  height: 200px;
+  width: auto;
+  margin: 25px;
+  text-align: center;
+}
+
+.mission-title
+{
+  font-size: 75px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.mission-text
+{
+  font-size: 25px;
+  color: #438352;
+}
+
+.exhibition-container
+{
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.exhibition-title
+{
+  font-size: 36px;
 }

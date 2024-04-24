@@ -1,4 +1,5 @@
 import './App.css';
+import Exhibition from './components/Exhibition';
 
 function App() {
   return (
@@ -27,8 +28,41 @@ function App() {
         <p className="welcome-text">Welcome to the world of astronomy</p>
       </div>
 
-      
-      
+      <div className = 'mission-container'>
+        <p className = 'mission-title'>
+          Our mission
+        </p>
+        <p className = 'mission-text'>
+          Our mission is to spread astronomical knowledge and encourage curiosity about space.
+        </p>
+      </div>
+
+      <div className = 'exhibition-container'>
+        <h2 className = 'exhibition-title'>
+          Enjoy our wonderful exhibition
+        </h2>
+
+        <div className = 'exhibition-galery'>
+          <Exhibition 
+            imgNum = '1'
+          />
+          <Exhibition 
+            imgNum = '2'
+          />
+          <Exhibition 
+            imgNum = '3'
+          />
+          <Exhibition 
+            imgNum = '4'
+          />
+          <Exhibition 
+            imgNum = '5'
+          />
+          <Exhibition 
+            imgNum = '6'
+          />
+        </div>
+      </div>
     </div>
   );
 }
