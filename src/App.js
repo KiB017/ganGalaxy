@@ -42,7 +42,7 @@ function App() {
           Enjoy our wonderful exhibition
         </h2>
 
-        <div className = 'exhibition-galery'>
+        <div className = 'fila'>
           <Exhibition 
             imgNum = '1'
           />
@@ -52,6 +52,8 @@ function App() {
           <Exhibition 
             imgNum = '3'
           />
+        </div>
+        <div className = 'fila'>
           <Exhibition 
             imgNum = '4'
           />
@@ -62,6 +64,11 @@ function App() {
             imgNum = '6'
           />
         </div>
+      </div>
+
+      <div className = 'ticket-container'>
+        <p><strong>You can make a reserversion</strong></p>
+        <p>Avilable on monday to friday 9 A.M. to 9 P.M.</p>
       </div>
     </div>
   );
