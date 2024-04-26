@@ -1,5 +1,6 @@
 import './App.css';
 import Exhibition from './components/Exhibition';
+import TicketForm from './components/TicketForm';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           className = 'welcome-container-entrance'
           alt = 'ganGalaxy Museam entrance'
         />
-        <p className="welcome-text">Welcome to the world of astronomy</p>
+        <p className = "welcome-text">Welcome to the world of astronomy</p>
       </div>
 
       <div className = 'mission-container'>
@@ -66,10 +67,21 @@ function App() {
         </div>
       </div>
 
-      <div className = 'ticket-container'>
-        <p><strong>You can make a reserversion</strong></p>
-        <p>Avilable on monday to friday 9 A.M. to 9 P.M.</p>
+      
+      <p className = 'ticket-title'>You can buy a e-ticket</p>
+      <p className = 'ticket-subtitle'>Avilable on monday to friday 9 A.M. to 9 P.M.</p>
+
+      <div className = 'ticket-form-container'>
+        <img 
+          src = {require('./images/ticket.png')}
+          className = 'ticket-img'
+          alt = 'ticket'
+        />
+
+        <TicketForm />
+
       </div>
+
     </div>
   );
 }
