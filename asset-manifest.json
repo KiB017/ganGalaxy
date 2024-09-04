@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/KiB017/ganGalaxy.git/static/css/main.7b968fb9.css",
-    "main.js": "/KiB017/ganGalaxy.git/static/js/main.7f609b31.js",
-    "static/media/ganGalaxy_logo.webp": "/KiB017/ganGalaxy.git/static/media/ganGalaxy_logo.d01dce9e802df2940d88.webp",
-    "index.html": "/KiB017/ganGalaxy.git/index.html",
-    "main.7b968fb9.css.map": "/KiB017/ganGalaxy.git/static/css/main.7b968fb9.css.map",
-    "main.7f609b31.js.map": "/KiB017/ganGalaxy.git/static/js/main.7f609b31.js.map"
+    "main.css": "/ganGalaxy/static/css/main.1d6e0530.css",
+    "main.js": "/ganGalaxy/static/js/main.991addc0.js",
+    "static/media/exhibition-3.webp": "/ganGalaxy/static/media/exhibition-3.12ea11bdf8a2ed89c1a0.webp",
+    "static/media/exhibition-1.webp": "/ganGalaxy/static/media/exhibition-1.55d83de0402a3395a32b.webp",
+    "static/media/ticket.png": "/ganGalaxy/static/media/ticket.e739eb3127aa0a4b757c.png",
+    "static/media/exhibition-4.webp": "/ganGalaxy/static/media/exhibition-4.ef83d5ff4b28dd4cf3a8.webp",
+    "static/media/galaxy-background.webp": "/ganGalaxy/static/media/galaxy-background.a99c49f9edbf58a208b7.webp",
+    "static/media/exhibition-2.webp": "/ganGalaxy/static/media/exhibition-2.6d59da2a0270faa4b26f.webp",
+    "static/media/exhibition-5.webp": "/ganGalaxy/static/media/exhibition-5.07de873556124c14fb89.webp",
+    "static/media/ganGalaxy-entrance.webp": "/ganGalaxy/static/media/ganGalaxy-entrance.4f89560dac50a4a4d4d7.webp",
+    "static/media/exhibition-6.webp": "/ganGalaxy/static/media/exhibition-6.fdb5df7b560b49ccafef.webp",
+    "static/media/ganGalaxy_logo.webp": "/ganGalaxy/static/media/ganGalaxy_logo.d01dce9e802df2940d88.webp",
+    "index.html": "/ganGalaxy/index.html",
+    "main.1d6e0530.css.map": "/ganGalaxy/static/css/main.1d6e0530.css.map",
+    "main.991addc0.js.map": "/ganGalaxy/static/js/main.991addc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b968fb9.css",
-    "static/js/main.7f609b31.js"
+    "static/css/main.1d6e0530.css",
+    "static/js/main.991addc0.js"
   ]
 }
