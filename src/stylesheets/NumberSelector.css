@@ -1,0 +1,25 @@
+.number-selector-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-selector-text
+{
+    font-size: 30px;
+    padding: 0px 40px 0px 0px;
+}
+
+.submit-btn
+{
+  height: 35px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px 0px;
+}

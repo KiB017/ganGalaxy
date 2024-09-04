@@ -1,8 +1,17 @@
 import './App.css';
 import Exhibition from './components/Exhibition';
-import TicketForm from './components/TicketForm';
+import NumberSelector from './components/NumberSelector';
+import Select from 'react-select';
 
 function App() {
+
+  const options = [
+    { value: 'singleAdultType', label: 'Single adult E-Ticket' },
+    { value: 'singleChildType', label: 'Single child E-Ticket' },
+    { value: 'coupleType', label: 'Couple E-Ticket (2 people)' },
+    { value: 'groupType', label: 'Group E-Ticket (4 people)' }
+  ]
+
   return (
     <div className='App'>
       <div className = 'header-container'>
@@ -77,8 +86,14 @@ function App() {
           className = 'ticket-img'
           alt = 'ticket'
         />
-
-        <TicketForm />
+        
+        <div className = 'form-ticket'>
+          <label>Select the e-ticket type of your choice</label>
+          <Select options={options}/>
+          <div className = 'ticket-quantity'>
+            <NumberSelector />
+          </div>
+        </div>
 
       </div>
 

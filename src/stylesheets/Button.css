@@ -1,0 +1,15 @@
+.plus-btn, .minus-btn
+{
+    height: 45px;
+    width: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.plus-btn:hover, .minus-btn:hover
+{
+    background-color: gray;
+}
